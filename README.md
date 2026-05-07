@@ -1,16 +1,50 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Tech Stack
 
-Currently, two official plugins are available:
+- **React.js** - UI library
+- **Tailwind CSS** - Styling
+- **React Router DOM** - Navigation
+- **Lucide React** - Icons
+- **LocalStorage** - Data persistence
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Features
 
-## React Compiler
+### Assignment 1 (Figma to UI)
+- ✅ Pixel-perfect Figma implementation
+- ✅ Fully responsive design
+- ✅ Sidebar navigation with active states
+- ✅ AI Chat interface with suggestion chips
+- ✅ Today's Focus section
+- ✅ Build Basics task grid
+- ✅ Mind Gym exercise cards
+- ✅ Mood & Activity Trends chart
+- ✅ Skills Progress tracking
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Assignment 2 (Logic & State Management)
+- ✅ AI Chat with mock responses
+- ✅ Task Progress System with localStorage
+- ✅ Session Task Flow (Start → Continue → Completed)
+- ✅ Locked tasks with blur effect
+- ✅ Dynamic progress calculation (bars + circular)
+- ✅ Reset functionality
+- ✅ Session page with locked milestones
 
-## Expanding the ESLint configuration
+## Responsive Breakpoints
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Breakpoint | Behavior |
+|------------|----------|
+| Mobile (<640px) | Single column, stacked layout |
+| Tablet (640-1024px) | Adjusted spacing |
+| Desktop (>1024px) | Full 2/3 + 1/3 layout |
+
+## Running Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
