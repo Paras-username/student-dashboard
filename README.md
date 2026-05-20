@@ -1,50 +1,48 @@
+# Student Dashboard
 
-##  Tech Stack
+A student productivity dashboard built with React.js and Tailwind CSS. It includes modules for AI chat, task tracking, progress monitoring, and career roadmap planning.
 
-- **React.js** - UI library
-- **Tailwind CSS** - Styling
-- **React Router DOM** - Navigation
-- **Lucide React** - Icons
-- **LocalStorage** - Data persistence
+## Live Demo
 
-##  Features
+https://student-dashboard-three-eta.vercel.app
 
-### Assignment 1 (Figma to UI)
-- ✅ Pixel-perfect Figma implementation
-- ✅ Fully responsive design
-- ✅ Sidebar navigation with active states
-- ✅ AI Chat interface with suggestion chips
-- ✅ Today's Focus section
-- ✅ Build Basics task grid
-- ✅ Mind Gym exercise cards
-- ✅ Mood & Activity Trends chart
-- ✅ Skills Progress tracking
+## Tech Stack
 
-### Assignment 2 (Logic & State Management)
-- ✅ AI Chat with mock responses
-- ✅ Task Progress System with localStorage
-- ✅ Session Task Flow (Start → Continue → Completed)
-- ✅ Locked tasks with blur effect
-- ✅ Dynamic progress calculation (bars + circular)
-- ✅ Reset functionality
-- ✅ Session page with locked milestones
+- React.js
+- Tailwind CSS
+- React Router DOM
+- Lucide React (Icons)
+- LocalStorage (Data persistence)
 
-## Responsive Breakpoints
+## Features
 
-| Breakpoint | Behavior |
-|------------|----------|
-| Mobile (<640px) | Single column, stacked layout |
-| Tablet (640-1024px) | Adjusted spacing |
-| Desktop (>1024px) | Full 2/3 + 1/3 layout |
+### Dashboard Page
+- AI Chat with suggestion chips and mock responses
+- Today`s Focus section
+- Career Roadmap with interactive timeline
+- Build Basics task progress system
+- Mind Gym exercise cards
+- Mood and Activity Trends chart
+- Skills Progress tracking
 
-## Running Locally
+### Session Page
+- Task Progress System with LocalStorage
+- Session Task Flow (Start -> Continue -> Completed)
+- Locked tasks with blur effect
+- Dynamic progress calculation (progress bars and circular chart)
+- Journey Progress with circular chart
+- Special Recommendation card
+- Quick Learning Resources
+
+## Responsive Design
+
+The interface adapts to different screen sizes:
+- Mobile (below 640px): Single column layout
+- Tablet (640px to 1024px): Adjusted spacing
+- Desktop (above 1024px): Full two-thirds plus one-third layout
+
+## Run Locally
 
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
-
-# Build for production
-npm run build
